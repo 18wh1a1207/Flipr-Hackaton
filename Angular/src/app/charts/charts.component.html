@@ -1,0 +1,20 @@
+
+<br/><br/>
+<div class="container">
+    <div class="dropdown">
+        <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">Select Company</button>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" (click)="ashokley()">Ashokley</a>
+      <a class="dropdown-item" (click)="cipla()">Cipla.Ns</a>
+      <a class="dropdown-item" (click)="eichermot()">Eichermot.Ns</a>
+      <a class="dropdown-item" (click)="Reliance()">Relaince.Ns</a>
+      <a class="dropdown-item" (click)="Tatasteel()">Tatasteel.Ns</a>
+    </div>
+  </div>
+</div>
+<br/><br/>
+
+<div class="chart-container" style="position: relative; height:40vh; width:60vw">    
+    <canvas id="canvas">{{ Linechart }}</canvas>    
+  </div>
+  
